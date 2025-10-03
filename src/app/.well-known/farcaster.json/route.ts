@@ -9,12 +9,13 @@ function withValidProperties(
 }
 
 export async function GET() {
-  const URL = process.env.NEXT_PUBLIC_URL as string;
   return Response.json({
     accountAssociation: {
-      header: "",
-      payload: "",
-      signature: "",
+      header:
+        "eyJmaWQiOjEzNTAyNTEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwYUNBMTExNGFGZkQ3RUY1RjY3MzFkNmJhMTEwN0U4ZGE4ZTc2OWU3In0",
+      payload: "eyJkb21haW4iOiJzcGxpdC1zYWZlLXRocmVlLnZlcmNlbC5hcHAifQ",
+      signature:
+        "MHg5ZDVhMGMzNzZmODZhOThjZTFiMDBhYjExMGFjNDQ2MDkzYTg1MzY2NjY5YjU3NDI0ODU3MmU4ODEzMjMyNGZiMmFmYjY0MTI3ZjY3ZDJjNjA2NWI4YWI2MTBhOTVkZGVmM2Y5MzNkNDBlOGFkZDQ3NGVhNTZhODE2YjRmZjk1NDFi",
     },
     baseBuilder: {
       allowedAddresses: [""],
