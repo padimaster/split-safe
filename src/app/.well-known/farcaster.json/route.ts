@@ -18,7 +18,7 @@ export async function GET() {
         "MHg5ZDVhMGMzNzZmODZhOThjZTFiMDBhYjExMGFjNDQ2MDkzYTg1MzY2NjY5YjU3NDI0ODU3MmU4ODEzMjMyNGZiMmFmYjY0MTI3ZjY3ZDJjNjA2NWI4YWI2MTBhOTVkZGVmM2Y5MzNkNDBlOGFkZDQ3NGVhNTZhODE2YjRmZjk1NDFi",
     },
     baseBuilder: {
-      allowedAddresses: [""],
+      allowedAddresses: ["0x5E8a9641B3B720fA73DBCd752e5b116432567681"],
     },
     miniapp: {
       version: "1",
@@ -30,11 +30,7 @@ export async function GET() {
       webhookUrl: "https://split-safe-three.vercel.app/api/webhook",
       subtitle: "Split Safe",
       description: "A fast, fun way to split bills.",
-      screenshotUrls: [
-        "https://split-safe-three.vercel.app/screenshot-1.png",
-        "https://split-safe-three.vercel.app/screenshot-2.png",
-        "https://split-safe-three.vercel.app/screenshot-3.png",
-      ],
+      screenshotUrls: ["https://split-safe-three.vercel.app/screenshot-1.png"],
       primaryCategory: "finance",
       tags: ["split-safe", "miniapp", "baseapp"],
       heroImageUrl: "https://split-safe-three.vercel.app/og.png",
