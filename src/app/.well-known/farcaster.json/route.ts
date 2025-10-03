@@ -38,7 +38,7 @@ export async function GET() {
       ogTitle: "Split Safe",
       ogDescription: "A fast, fun way to split bills.",
       ogImageUrl: "https://split-safe-three.vercel.app/og.png",
-      noindex: true,
+      noindex: false,
     },
   });
 }
